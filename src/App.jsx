@@ -49,8 +49,7 @@ const App = () => {
         </nav>
 
         <Routes>
-          <Route path="/" element={<><HomePage /><CarsPage /><VideoPage /><Benefits /><Footer /></>} />
-          <Route path="/cars" element={<><CarsPage /><Benefits /><Footer /></>} />
+          <Route path="/" element={<><HomePage /><CarsPage /><VideoPage /><Benefits /><Footer /></>} />        
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>
