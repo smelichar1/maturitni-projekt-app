@@ -1,17 +1,16 @@
 import React from "react";
-import "../styles/Contact.css"; // Import CSS
-import mapImage from "../assets/map.png"; // Obrázek mapy
+import "../styles/Contact.css"; 
+import mapImage from "../assets/map.png"; 
 
 const Contact = () => {
   return (
     <div className="contact-container">
-      {/* Hlavní nadpis a čára */}
       <div className="title-container">
         <h1 className="page-title-contact">Kontaktujte nás</h1>
         <div className="title-underline"></div>
       </div>
 
-      {/* Formulář */}
+      
       <div className="contact-box">
         <form>
           <div className="name-fields">
@@ -32,13 +31,13 @@ const Contact = () => {
         </form>
       </div>
 
-      {/* Nadpis pro sekci s mapou */}
+      
       <div className="title-container">
         <h2 className="page-title-contact">Kde nás najdete?</h2>
         <div className="title-underline"></div>
       </div>
 
-      {/* Sekce s mapou */}
+      
       <div className="map-section">
         <img src={mapImage} alt="Mapa" className="map-image" />
         <div className="contact-info">

@@ -1,58 +1,58 @@
-/* Celý kontejner stránky */
+
 .contact-container {
   width: 100%;
-  max-width: 1200px; /* Maximální šířka stránky */
-  margin: 100px auto; /* Vycentrování kontejneru */
+  max-width: 1200px; 
+  margin: 100px auto; 
   padding: 40px;
   display: flex;
   flex-direction: column;
   
 }
 
-/* Kontejner pro nadpis a čáru */
+
 .title-container {
   display: flex;
   flex-direction: column;
   
   width: 100%;
-  margin-left: 0;  /* Zajištění, že tento kontejner nebude mít žádné levé odsazení */
-  padding-left: 0; /* Odstranění vnitřního odsazení */
+  margin-left: 0;  
+  padding-left: 0; 
 }
 
-/* Hlavní nadpis */
+
 .page-title-contact {
   font-size: 60px;
   font-weight: bold;
   color: black;
-  text-align: left; /* Nadpis je zarovnán vlevo */
-  margin: 0 !important; /* Odstranění marginu kolem nadpisu */
-  padding: 0 !important; /* Zajištění, že nebude žádné vnitřní odsazení */
-  width: auto !important; /* Automatická šířka nadpisu */
-  display: block !important; /* Ujistíme se, že nadpis se chová jako blok */
+  text-align: left; 
+  margin: 0 !important; 
+  padding: 0 !important; 
+  width: auto !important; 
+  display: block !important; 
 }
 
-/* Oranžová čára */
+
 .title-underline {
-  width: 450px; /* Velikost čáry */
+  width: 450px; 
   height: 5px;
   background: #ffb400;
-  margin-top: 5px; /* Malá mezera mezi nadpisem a čárou */
+  margin-top: 5px; 
 }
 
-/* Formulář */
+
 .contact-box {
   background: #D9D9D9;
-  margin-top: 50px; /* Odsazení od nadpisu */
+  margin-top: 50px; 
   padding: 50px;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   width: 900px;
-  text-align: left; /* Zarovnání obsahu vlevo */
+  text-align: left; 
   margin-left: auto;
-  margin-right: auto; /* Vycentrování formuláře */
+  margin-right: auto; 
 }
 
-/* Pole Email a Telefon */
+
 .name-fields {
   display: flex;
   justify-content: space-between;
@@ -61,7 +61,7 @@
   width: 100%;
 }
 
-/* Každé vstupní pole */
+
 .input-group {
   display: flex;
   flex-direction: column;
@@ -87,13 +87,13 @@
   box-sizing: border-box;
 }
 
-/* Box na zprávu */
+
 textarea {
   min-height: 150px;
   resize: vertical;
 }
 
-/* Tlačítko */
+
 .submit-button {
   width: 100%;
   background: #ffb400;
@@ -111,38 +111,38 @@ textarea {
   background: #e6a200;
 }
 
-/* Sekce s mapou */
+
 .map-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
   justify-content: center;
-  text-align: center; /* Vycentrování obsahu */
+  text-align: center; 
 }
 
-/* Mapa */
+
 .map-image {
   width: 100%;
   max-width: 1100px;
   border-radius: 10px;
 }
 
-/* Info box */
+
 .contact-info {
   background: orange;
-  padding: 100px 20px; /* Zvýšení výšky a snížení šířky */
+  padding: 100px 20px; 
   border-radius: 10px;
   margin-top: -500px;
   margin-left: 650px;
   color: black;
   text-align: center;
   font-size: 18px;
-  width: 300px; /* Menší šířka */
-  height: auto; /* Větší výška */
+  width: 300px; 
+  height: auto; 
 }
 
-/* Responzivita */
+
 @media (max-width: 700px) {
   .contact-box {
     width: 90%;
