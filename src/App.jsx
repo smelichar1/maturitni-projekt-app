@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Benefits from "./pages/Benefits";
 import Footer from "./pages/Footer";
+import Contact from "./pages/Contact"; // ✅ Přidání Contact stránky
 import "./styles/Navbar.css";
 import accountIcon from "./assets/account-icon.png"; 
 
@@ -40,7 +41,6 @@ const App = () => {
             <Link to="/kontakt" onClick={() => setMenuOpen(false)}>Kontakt</Link>
           </div>
 
-          
           <div className="login-icon">
             <Link to="/login">
               <img src={accountIcon} alt="Účet" className="account-icon" />
@@ -52,6 +52,7 @@ const App = () => {
           <Route path="/" element={<><HomePage /><CarsPage /><VideoPage /><Benefits /><Footer /></>} />        
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/kontakt" element={<Contact />} /> {/* ✅ Přidáno */}
         </Routes>
       </div>
     </Router>
